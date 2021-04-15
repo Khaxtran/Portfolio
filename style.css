@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font-family: 'Rokkitt', serif;
+    font-family: 'Josefin Slab', serif;
     font-size: 50px;
 }
 h2 {
@@ -15,6 +15,7 @@ h2 {
     color: rgb(53, 53, 53);
     margin: 30px 0px;
 }
+
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -32,6 +33,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 80px;
+    padding-top: 25px;
     border-bottom: 1px rgba(0, 0, 0, 0.274) solid;
     z-index: 5;
 }
@@ -50,6 +52,7 @@ main {
     margin: 50px 0px;
 }
 
+/*INTRO*/
 .introduction {
     display: flex;
     justify-content: space-between;
@@ -63,3 +66,31 @@ main {
     height: auto;
     border-radius: 15px;
 }
+
+/*PROJECTS*/
+.projects {
+    height: auto;
+    cursor: pointer;
+    padding: 15px 0px;
+}
+.project-titles {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 25px;
+    list-style: none;
+}
+
+
+
+/*SKILLS*/
+.icons {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 30px;
+}
+
