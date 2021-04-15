@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>My Portfolio</title>
+    <!--Google fonts links below this line-->
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@400&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
-<<<<<<< Updated upstream
-    <title>My Portfolio</title>
-=======
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
     
     <!--font-awesome links below this line-->
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/Users/GitHub/Portfolio/media/fontawesome-free-5.15.2-web/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
->>>>>>> Stashed changes
+    
 </head>
 <body>
     <header>
@@ -40,44 +40,83 @@
         <h2>About Me</h2>
         <section class="introduction">
             <div class="intro-para">
-<<<<<<< Updated upstream
-                <p>Knowledgeable in the foundation of Information Technology with one year studied and certified Diploma of Computing at Deakin College.</p>
-                <p>Two years experience as Software Developer at Melbourne Polytechnic adept in bringing fifth expertise in planning, design, implementation, testing, and maintenance of software systems. </p>
-                <p>Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.</p>
-=======
                 <p>Hello! I'm Kha, a web developer from Australia and Vietnam. I left my home country since I was 16 and came to Australia to live and study until today.</p>
                 <p>It can be said that Vietnam is the place where I was born and raised, but Australia is the place that gives me many opportunities to learn and exchange knowledge. One of the best examples is becoming a web developer!</p>
-                <p>In my free time, I like to play sports such as basketball, football(soccer), and computer games. I also like to take my chances of winning big.</p>
-                <p>
+                <p>In my free time, I like to play sports such as basketball, football(soccer), and computer games. I also like to take my chances of winning big.</p>                <p>
                     Fun fact! I've been programing for
-                    <span id="time-container"><script src="./script.js"></script></span> days since 12/07/2020!
+                    <span id="time-container"><script src="./script.js"></script></span> seconds since 12/7/2020!
                   </p>
             </div>
             <script src="./changeImage.js"></script>
             <div class="profile-pictures">
                 <img onclick="newStyle()" id="profile-picture" src="./media/profile pictures/user.png" alt="profile-picture">
                 <aside>Click to change profile picture</aside>
->>>>>>> Stashed changes
             </div>
-            <img src="./media/attach (1).png" alt="profile-picture">
+            
         </section>
 
         <section>
             <h2>Projects</h2>
-            <div>
-                <p>Teasie</p>
-            </div>
-            <div>
-                <p>My Blog</p>
-            </div>
-            <div>
-                <p>Colmar Academi</p>
-            </div>
-        </section>
+            <details class="projects">
+                <summary class="project-titles"><i class="fas fa-angle-right"> Teasie</i></summary>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-1.png" alt="Teasie">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-2.png" alt="Teasie">
+                    </div>
+                </div>
+                
+                <p>This is a project of a website specializing in providing tea flavors from different parts of the world. My mission was to design the website interface for this brand.</p>
+            </details>
 
+
+            <details class="projects">
+                <summary class="project-titles"><i class="fas fa-angle-right"> My Blog</i></summary>
+                <div class="project-box">
+                    <img class="project-images" src="./media/projects/blog.png" alt="Blog">
+                </div>
+                <p>My Blog is probably one of my first projects since I started learning to code.</p>
+            </details>
+
+
+            <details class="projects">
+                <summary class="project-titles"><i class="fas fa-angle-right"> Ô Chu Cake</i></summary>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-1.png" alt="ochu-1">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-2.png" alt="ochu-2">
+                    </div>
+
+                </div>
+                <p>This website was conceptualized and implemented because it was inspired by my sister since she is a baker in Vietnam. This concept was built with the hope that it will help my sister's bakery shop attract more customers.</p>
+            </details>
+            
+        </section>
         <section>
             <h2>Skills</h2>
+            <div class="icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-git"></i>
+                <i class="fas fa-terminal"></i>
+                <i class="fas fa-universal-access"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-github"></i>
+            </div>
         </section>
     </main>
+<footer>
+    <p>Made with <i class="fas fa-heart"></i> from Melbourne</p>
+</footer>
+
+
 </body>
+
+
 </html>
