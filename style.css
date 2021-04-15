@@ -9,6 +9,7 @@ h1 {
     font-family: 'Josefin Slab', serif;
     font-size: 50px;
 }
+
 h2 {
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 30px;
@@ -37,6 +38,46 @@ nav {
     border-bottom: 1px rgba(0, 0, 0, 0.274) solid;
     z-index: 5;
 }
+
+.letter-container {
+    display: inline-flex;
+
+}
+.letters {
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+}
+
+.letter-1 {
+    animation: downThenUp 1s linear;
+}
+.letter-2 {
+    animation: downThenUp 1s linear;
+}
+.letter-3 {
+    animation: downThenUp 1s linear;
+}
+.letter-4 {
+    animation: downThenUp 1s linear;
+}
+.letter-5 {
+    animation: downThenUp 1s linear;
+}
+.letter-6 {
+    animation: downThenUp 1s linear;
+}
+.letter-7 {
+    animation: downThenUp 1s linear;
+}
+
+@keyframes downThenUp {
+    0%   {transform: scale(0.5)}
+    25%  {transform: scale(1)}
+    50%  {transform: scale(1.3)}
+    75%  {transform: scale(1.1)}
+    100% {transform: scale(1)}
+}
+
 a {
     text-decoration: none;
     color: rgb(44, 44, 44);
