@@ -35,23 +35,57 @@
                 <p>Knowledgeable in the foundation of Information Technology with one year studied and certified Diploma of Computing at Deakin College.</p>
                 <p>Two years experience as Software Developer at Melbourne Polytechnic adept in bringing fifth expertise in planning, design, implementation, testing, and maintenance of software systems. </p>
                 <p>Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.</p>
+                <p>
+                    Fun fact! I've been programing for
+                    <span id="time-container"><script src="./script.js"></script></span> seconds!
+                  </p>
             </div>
-            <img src="./media/attach (1).png" alt="profile-picture">
+            <script src="./changeImage.js"></script>
+            <div class="profile-pictures">
+                <img onclick="newStyle()" id="profile-picture" src="./media/profile pictures/user.png" alt="profile-picture">
+                <aside>Click to change profile picture</aside>
+            </div>
+            
         </section>
 
         <section>
             <h2>Projects</h2>
             <details class="projects">
                 <summary class="project-titles"><i class="fas fa-angle-right"> Teasie</i></summary>
-                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-1.png" alt="Teasie">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-2.png" alt="Teasie">
+                    </div>
+                </div>
+                
+                <p>This is a project of a website specializing in providing tea flavors from different parts of the world. My mission was to design the website interface for this brand.</p>
             </details>
+
+
             <details class="projects">
                 <summary class="project-titles"><i class="fas fa-angle-right"> My Blog</i></summary>
-                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                <div class="project-box">
+                    <img class="project-images" src="./media/projects/blog.png" alt="Blog">
+                </div>
+                <p>My Blog is probably one of my first projects since I started learning to code.</p>
             </details>
+
+
             <details class="projects">
-                <summary class="project-titles"><i class="fas fa-angle-right"> Colmar Academi</i></summary>
-                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                <summary class="project-titles"><i class="fas fa-angle-right"> Ô Chu Cake</i></summary>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-1.png" alt="ochu-1">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-2.png" alt="ochu-2">
+                    </div>
+
+                </div>
+                <p>This website was conceptualized and implemented because it was inspired by my sister since she is a baker in Vietnam. This concept was built with the hope that it will help my sister's bakery shop attract more customers.</p>
             </details>
             
         </section>
@@ -70,9 +104,12 @@
             </div>
         </section>
     </main>
+<footer>
+    <p>Made with <i class="fas fa-heart"></i> from Melbourne</p>
+</footer>
+
+
 </body>
 
-<footer>
-    
-</footer>
+
 </html>

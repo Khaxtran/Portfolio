@@ -62,10 +62,27 @@ main {
     width: 65%;
 }
 .introduction img {
-    max-width: 25%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 15px;
 }
+.profile-pictures {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 30%;
+   
+}
+aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    color: rgb(44, 44, 44);
+    padding-top: 40px;
+}
+
 
 /*PROJECTS*/
 .projects {
@@ -78,6 +95,22 @@ main {
     font-weight: bolder;
     padding-left: 25px;
     list-style: none;
+}
+.project-image-container {
+    display: inline-flex;
+    padding-top: 25px;
+}
+.project-box {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.project-images {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 
@@ -94,3 +127,13 @@ main {
     font-size: 30px;
 }
 
+
+/*                                               FOOTER                                       */
+footer {
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+}
+.fa-heart {
+    color: rgb(223, 67, 47);
+}
