@@ -4,7 +4,9 @@ body {
     padding: 0 200px;
     margin: 0 auto;
 }
-
+.contact-responsive {
+    display: none;
+}
 .click-here {
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 25px;
@@ -43,7 +45,9 @@ nav {
     border-bottom: 1px rgba(0, 0, 0, 0.274) solid;
     z-index: 5;
 }
-
+.myname {
+    display: none;
+}
 .letter-container {
     display: inline-flex;
 
@@ -158,9 +162,20 @@ aside {
     color: rgb(44, 44, 44);
     padding-top: 40px;
 }
+.aside-touch {
+    display: none;
+}
 
-
+.about-me-768 {
+    display: none;
+}
 /*PROJECTS*/
+.projects-768 {
+    display: none;
+}
+.projects-600 {
+    display: none;
+}
 .projects {
     height: auto;
     cursor: pointer;
@@ -232,3 +247,156 @@ footer {
     color: rgb(223, 67, 47);
 }
 
+
+
+/*                                            RESPONSIVE                                     */
+
+
+@media (orientation: portrait) and (max-width: 1024px) and (min-width: 605px) {
+    body {
+        padding: 0px 50px;
+    }
+    .about-me-original {
+        display: none;
+    }
+    .about-me-768 {
+        display: block;
+    }
+    .contact-responsive {
+        display: none;
+    }
+
+    /*INTRODUCTION*/
+
+    .introduction {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .intro-para {
+        width: 90%;
+    }
+    .introduction img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .aside-touch {
+        display: block;
+        padding-top: 30px;
+    }
+    .aside-original {
+        display: none;
+    }
+
+    /*PROJECTS*/
+
+    .projects-original {
+        display: none;
+    }
+    .projects-600 {
+        display: none;
+    }
+    .projects-768 {
+        display: block;
+        text-align: center;
+    }
+    .projects {
+        height: auto;
+        cursor: none;
+        padding: 0px;
+    }
+    .projects h3 {
+        text-align: left;
+        font-size: 25px;
+    }
+    .project-image-container {
+        display: block;
+        padding-top: 0px;
+    }
+    .project-box {
+        text-align: center;
+        padding: 10px;
+    }
+    .project-images {
+        width: 80%;
+        transition: none;
+        border: none;
+    }
+    .project-images:hover {
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0px 30px;
+    }
+    .nav-original {
+        display: none;
+    }
+    .myname {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .profile-pictures {
+        display: none;
+    }
+    h2 {
+        text-align: center;
+    }
+    .intro-para {
+        width: 100%;
+        text-align: center;
+    }
+    .projects-original {
+        display: none;
+    }
+    .projects-768 {
+        display: none;
+    }
+    .projects-600 {
+        display: block;
+    }
+    .projects {
+        padding: 0px;
+    }
+    .projects p {
+        text-align: center;
+    }
+    .project-image-container {
+        display: block;
+        padding-top: 0px;
+    }
+    h3 {
+        text-align: left;
+        font-size: 25px;
+    }
+    .project-images {
+        transition: none;
+    }
+    .project-images:hover {
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .contact-responsive {
+        display: block;
+    }
+   .subscribe-container {
+       display: block;
+       text-align: center;
+   }
+   .follows {
+       padding-top: 40px;
+   }
+}

@@ -112,3 +112,27 @@ footer {
 .fa-heart {
     color: rgb(223, 67, 47);
 }
+
+
+/*                                            RESPONSIVE                                       */
+@media (orientation: portrait) and (max-width: 1024px) {
+    body {
+        padding: 0px 50px;
+    }
+  
+    .subscribe-box {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .email-box {
+        height: 30px;
+    }
+    .submit-button {
+        transition: none;
+    }
+    .submit-button:hover {
+        box-shadow: none;
+        -webkit-transform: none;
+        transform: none;
+    }
