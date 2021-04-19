@@ -95,7 +95,7 @@ main {
     border: none;
     color: white;
     font-size: 16px;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 .submit-button:hover {
     box-shadow: -3px 3px #a0a0a0a2;

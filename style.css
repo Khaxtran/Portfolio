@@ -5,6 +5,11 @@ body {
     margin: 0 auto;
 }
 
+.click-here {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 25px;
+}
+
 h1 {
     font-family: 'Josefin Slab', serif;
     font-size: 50px;
@@ -219,8 +224,9 @@ aside {
 /*                                               FOOTER                                       */
 footer {
     text-align: center;
-    margin: 20px;
     padding-top: 20px;
+    position: relative;
+    width: 100%;
 }
 .fa-heart {
     color: rgb(223, 67, 47);
