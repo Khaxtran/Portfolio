@@ -87,6 +87,7 @@ main {
     height: 20px;
 }
 .submit-button {
+    cursor: pointer;
     width: 125px;
     height: 40px;
     background-color: rgb(59, 156, 59);
@@ -94,6 +95,12 @@ main {
     border: none;
     color: white;
     font-size: 16px;
+    transition-duration: 0.1s;
+}
+.submit-button:hover {
+    box-shadow: -3px 3px #a0a0a0a2;
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
 }
 
 /*                                               FOOTER                                       */
@@ -105,3 +112,27 @@ footer {
 .fa-heart {
     color: rgb(223, 67, 47);
 }
+
+
+/*                                            RESPONSIVE                                       */
+@media (orientation: portrait) and (max-width: 1024px) {
+    body {
+        padding: 0px 50px;
+    }
+  
+    .subscribe-box {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .email-box {
+        height: 30px;
+    }
+    .submit-button {
+        transition: none;
+    }
+    .submit-button:hover {
+        box-shadow: none;
+        -webkit-transform: none;
+        transform: none;
+    }

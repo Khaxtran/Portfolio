@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./about.css" type="text/css">
     <title>My Portfolio</title>
     <!--Google fonts links below this line-->
     
@@ -21,8 +22,8 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="letter-container">
+        <nav class="nav-original">
+            <a href="./portfolio.html"><div class="letter-container">
                 <div class="letter-1 letters">K</div>
                 <div class="letter-2 letters">h</div>
                 <div class="letter-3 letters">a</div>
@@ -30,15 +31,18 @@
                 <div class="letter-5 letters">r</div>
                 <div class="letter-6 letters">a</div>
                 <div class="letter-7 letters">n</div>
-            </div>
+            </div></a>
             <a href="./about.html" class="contacts">Contacts</a>
         </nav>
+
+        <p class="myname letters">Kha Tran</p>
     </header>
 
 
     <main>
-        <h2>About Me</h2>
+        <h2 class="about-me-original">About Me</h2>
         <section class="introduction">
+            
             <div class="intro-para">
                 <p>Hello! I'm Kha, a web developer from Australia and Vietnam. I left my home country since I was 16 and came to Australia to live and study until today.</p>
                 <p>It can be said that Vietnam is the place where I was born and raised, but Australia is the place that gives me many opportunities to learn and exchange knowledge. One of the best examples is becoming a web developer!</p>
@@ -47,15 +51,17 @@
                     <span id="time-container"><script src="./script.js"></script></span> seconds since 12/7/2020!
                   </p>
             </div>
+            <h2 class="about-me-768">About Me</h2>
             <script src="./changeImage.js"></script>
             <div class="profile-pictures">
                 <img onclick="newStyle()" id="profile-picture" src="./media/profile pictures/user.png" alt="profile-picture">
-                <aside>Click to change profile picture</aside>
+                <aside class="aside-original">Click to change profile picture</aside>
+                <aside class="aside-touch">Tap to change profile picture</aside>
             </div>
             
         </section>
 
-        <section>
+        <section class="projects-original">
             <h2>Projects</h2>
             <details class="projects">
                 <summary class="project-titles"><i class="fas fa-angle-right"> Teasie</i></summary>
@@ -96,6 +102,87 @@
             </details>
             
         </section>
+
+        <section class="projects-768">
+            <h2>My Projects</h2>
+
+            <div class="projects">
+                <h3>Teasie</h3>
+                <p>This is a project of a website specializing in providing tea flavors from different parts of the world. My mission was to design the website interface for this brand.</p>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-1.png" alt="Teasie">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-2.png" alt="Teasie">
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>My Blog</h3>
+                <p>My Blog is probably one of my first projects since I started learning to code.</p>
+                <div class="project-box">
+                    <img class="project-images" src="./media/projects/blog.png" alt="Blog">
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>Ô Chu Cake</h3>
+                <p>This website was conceptualized and implemented because it was inspired by my sister since she is a baker in Vietnam. This concept was built with the hope that it will help my sister's bakery shop attract more customers.</p>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-1.png" alt="ochu-1">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-2.png" alt="ochu-2">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="projects-600">
+            <h2>My Projects</h2>
+
+            <div class="projects">
+                <h3>Teasie</h3>
+                <p>This is a project of a website specializing in providing tea flavors from different parts of the world. My mission was to design the website interface for this brand.</p>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-1.png" alt="Teasie">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/teasie-2.png" alt="Teasie">
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>My Blog</h3>
+                <p>My Blog is probably one of my first projects since I started learning to code.</p>
+                <div class="project-box">
+                    <img class="project-images" src="./media/projects/blog.png" alt="Blog">
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>Ô Chu Cake</h3>
+                <p>This website was conceptualized and implemented because it was inspired by my sister since she is a baker in Vietnam. This concept was built with the hope that it will help my sister's bakery shop attract more customers.</p>
+                <div class="project-image-container">
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-1.png" alt="ochu-1">
+                    </div>
+                    <div class="project-box">
+                        <img class="project-images" src="./media/projects/ochu-2.png" alt="ochu-2">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
         <section>
             <h2>Skills</h2>
             <div class="icons">
@@ -110,6 +197,35 @@
                 <i class="fab fa-github"></i>
             </div>
         </section>
+
+        <section class="contact-responsive">
+            <h2>Contact</h2>
+            <p>Have an interesting project? I would love to hear about it!</p>
+        
+        <section class="subscribe-container">
+            <div class="subscribe-box">
+                <div>
+                    <p>Enter your email to get daily newsletters!</p>
+                </div>
+                <form class="form-1" action="results.html" method="GET">
+                    <div class="inputs">
+                        <input class="email-box" type="email" name="email" id="email" placeholder="Enter here..." required>
+                    </div>
+                    <div class="inputs">
+                       <button class="submit-button" type="submit">Subscribe</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="follows">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-linkedin-square"></i></a>
+        </div>
+        </section>
+        </section>
+        
+
     </main>
 <footer>
     <p>Made with <i class="fas fa-heart"></i> from Melbourne</p>
