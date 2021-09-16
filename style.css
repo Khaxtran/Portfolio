@@ -44,6 +44,7 @@ p {
     background-color: rgb(231, 231, 231);
 }
 
+
 /*                                               HEADER                                        */
 
 nav {
@@ -208,7 +209,7 @@ aside {
 }
 .project-images {
     width: 100%;
-    height: auto;
+    height: auto%;
     border-radius: 5px;
     border: 1px solid black;
     transition-duration: 0.1s;
