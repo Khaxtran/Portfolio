@@ -102,7 +102,10 @@ main {
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
 }
-
+.fa-envelope {
+    font-size: 25px;
+    padding-right: 10px;
+}
 /*                                               FOOTER                                       */
 footer {
     text-align: center;
@@ -112,6 +115,8 @@ footer {
 .fa-heart {
     color: rgb(223, 67, 47);
 }
+
+
 
 
 /*                                            RESPONSIVE                                       */
