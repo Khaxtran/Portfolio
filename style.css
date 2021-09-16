@@ -33,15 +33,21 @@ p {
     word-spacing: 2px;
 }
 
+.fa-medal {
+    font-size:25px;
+    color:rgb(212, 211, 134)
+}
+
 .project-links {
-    color: rgb(38, 38, 255);
+    color: rgb(0, 0, 255);
+    background-color: rgb(231, 231, 231);
     font-size: 25px;
     transition-property: background-color;
     transition-duration: 0.1s;
 }
 
 .project-links:hover {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(211, 209, 209);
 }
 
 
