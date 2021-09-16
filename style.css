@@ -33,6 +33,17 @@ p {
     word-spacing: 2px;
 }
 
+.project-links {
+    color: rgb(38, 38, 255);
+    font-size: 25px;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+
+.project-links:hover {
+    background-color: rgb(231, 231, 231);
+}
+
 /*                                               HEADER                                        */
 
 nav {
